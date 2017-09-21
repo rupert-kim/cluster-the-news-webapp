@@ -1,10 +1,11 @@
 import datetime
 import random
 
+from clusterTheArticle.articleCluster import ArticleCluster
 from django.http import JsonResponse
 from django.shortcuts import render
 
-from lib.articleCluster import ArticleCluster
+
 from webAppForClusterTheNews.mongoHandler import MongoHandler
 from webAppForClusterTheNews.schedule.newsAppender import newsMaker, appender
 
