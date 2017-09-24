@@ -60,7 +60,6 @@ def getArticleGraph(request):
 
     nodes = []
     links = []
-    newsCluster = NewsCluster()
 
     for cluster in list:
         cluster['elementList'] = sorted(cluster['elementList'], key=lambda element: element['simValue'])
